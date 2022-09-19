@@ -1,0 +1,166 @@
+/*
+*
+* # Codo A Codo TP Bostrap
+* CURSO DE: . 2022, CODO AJS-FRONT END 2022 2.CODO A CODO,Comisión 22570
+* PROFESOR: ERICA GENTILINI
+* ALUMNA: ESTEFANIA  BENICIO
+*/
+/*FORMATO DE TODA LA PAGINA WEB*/
+/*Margenes y pading de la pagina entera*/
+*{
+    margin: 0;
+    padding: 0;
+}
+#botonImagen1,#botonImagen2,a,p,span,h6,b,#inputApellido,#inputNombre,#botonInformacion,#parrafoCharla,#textoLabel{
+  font-size: 1vw;  
+}
+h5{
+  font-size: 2vw;
+}
+h1{
+  font-size: 3vw;
+}
+#botonEnviar{
+  font-size: 1vw;
+}
+
+
+
+/*Cabecera de la pagina web*/
+#fondoDelNav{
+  background-color: rgb(53, 57, 64);
+  margin: 0%;
+}
+.enlaceNav:link, .enlaceNav:visited, .enlaceNav:active {
+  text-decoration:none;
+}
+#tituloCabecera{
+  margin-top: 3%;
+  margin-right: 13%;
+  margin-bottom: 1%; 
+}
+.linkNav{
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-bottom: 1%;
+  margin-right: 0%;
+  padding-right: 0%;     
+}
+.enlaceNav:active{
+  color: rgb(255, 255, 255);;
+}
+.enlaceNav:hover{
+  color: rgb(255, 255, 255);;
+}
+.enlaceNav{
+  text-decoration:none;
+  color: gray;
+}
+
+
+/*Cambia de color las letras de los < a>*/
+#navVerdeComprar:hover{
+  color: rgb(128, 226, 136);
+}
+/*Color de texto del enlace <a>, del Nav*/
+#navVerdeComprar{
+  color: green;
+}
+/*Posicion margenes y ancho de la imagen del nav*/
+#imagenLogoCodo{
+  position: relative;
+  top: 6px;
+  left: 9px;
+  margin-top: 1%;
+  margin-left: 7%;
+  margin-bottom: 0%;
+  width: 10%; 
+}
+#cabecera{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../img/ba1.jpg');
+  background-size: 100% 100%;   
+  
+}
+#parrafoCabecera{
+  text-align: end; 
+  margin: 7%;
+  color: rgb(255, 255, 255);; 
+}
+/*SECTION*/
+/*Subtitulos*/
+#subtitulo{
+    margin-bottom: 0% ;
+    font-weight: lighter;
+}
+
+.grupo3{
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.fondoAmarillo{
+ background-color: yellow; 
+ color: black;
+ padding: 1%;
+ border-radius:20%;
+ 
+}
+.fondoCyan{
+ background-color: rgb(29, 139, 139);
+ color: rgb(255, 255, 255);
+ padding: 1%;
+ border-radius:20%;
+}
+.fondoGris{
+  background-color:rgb(104, 103, 103);
+  color: rgb(255, 255, 255);
+  padding: 1%;
+  border-radius:20%;
+}
+.fondoRojo{
+  background-color:rgb(212, 16, 16);
+  color: rgb(255, 255, 255);
+  padding: 1%;
+  border-radius:20%;
+}
+
+#imagenPlaya{
+  width: 100%;
+  height: 100%;
+}
+
+
+/*FORMULARIO*/
+/*color del boton del formualrio*/
+
+#formulario{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+/*botones de la parte del formulario*/
+#botonEnviar{
+    background-color: rgb(148, 201, 56);
+    color: rgb(255, 255, 255);;
+    text-size-adjust: 1vw;
+}
+
+
+
+
+/*FINAL DE LA PAGINA WEB*/
+/*Color y decoracion de los enlaces <a>, del footer*/
+.textoDeFinPagina{
+    color: rgb(255, 255, 255);;
+    text-decoration:none;
+  }
+  /*Margenes del final de la pagina*/
+footer div div {
+    margin: 2%;
+}
+/*fondo y posiciones de la parte de fin de pagina */
+.finPagina{
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    margin-top: 25px;
+    background-image: linear-gradient(to right, rgb(30, 55, 67),rgb(33, 92, 126));
+}
